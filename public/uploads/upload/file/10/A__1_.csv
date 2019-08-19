@@ -1,0 +1,244 @@
+SystemName,StandardName,LongName,DBName,ShortName,MaximumLength,DataType,Precision,Searchable,Interpretation,Alignment,UseSeparator,EditMaskID,LookupName,MaxSelect,Units,Index,Minimum,Maximum,Default,Required,SearchHelpID,Unique
+LIST_0,"",MLS Identifier,matechid,MLSID,26,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_1,"",Internal Listing ID,techid,LISTID,26,Character,"",1,"","","","","","","","","","","",0,"",1
+LIST_5,AgentID,Agent ID,metechid,AgentID,26,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_6,"",CoList Agent ID,colistagen,CoListAgentID,26,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_8,"",Property Type,cardfmt,PropType,2,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_87,ModificationTimestamp,Timestamp,modtimesta,Timestamp,25,DateTime,"",1,"","","","","","","","","","","",0,"",0
+LIST_105,ListingID,Listing ID,listingid,ListingID,13,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_106,OfficeID,Office ID,listoffice,OfficeID,26,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_133,"",Picture Count,piccount,PicCount,11,Int,"",1,Number,"","","","","","","","","","",0,"",0
+LIST_134,"",Picture Timestamp,pictimesta,PicTimestamp,25,DateTime,"",1,"","","","","","","","","","","",0,"",0
+VOWList,"",VOWEntireListingDisplay,vowlist,VOWEntireListingDisplay,1,Boolean,"",1,"","","","","","","","","","","",0,"",0
+VOWAddr,"",VOWAddressDisplay,vowaddr,VOWAddressDisplay,1,Boolean,"",1,"","","","","","","","","","","",0,"",0
+VOWComm,"",VOWConsumerComment,vowcomm,VOWConsumerComment,1,Boolean,"",1,"","","","","","","","","","","",0,"",0
+VOWAVM,"",VOWAutomatedValuationDisplay,vowavm,VOWAutomatedValuationDis,1,Boolean,"",1,"","","","","","","","","","","",0,"",0
+LIST_9,"",Category,booksec,"",100,Character,"",1,Lookup,"","","",20020928182327259351000000,"","","","","","",0,"",0
+LIST_12,CloseDate,Sold Date,solddate,"",10,Date,"",1,"","","","","","","","","","","",0,"",0
+LIST_15,ListingStatus,Status,status,"",100,Character,"",1,Lookup,"","","",20020928182325633205000000,"","","","","","",0,"",0
+LIST_16,StatusChangeDate,Status Change Date,statuschan,"",10,Date,"",1,"","","","","","","","","","","",0,"",0
+LIST_19,"",Contingency,contingent,"",100,Character,"",0,Lookup,"","","",20020928182325842590000000,"","","","","","",0,"",0
+LIST_22,ListPrice,Price,listprice,"",15,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_23,ClosePrice,Sold Price,soldprice,"",15,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_26,AssociationFee,Assoc Fee,assessedva,"",15,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_27,"",Mobile/Mfg Home,terms,"",100,Character,"",1,Lookup,"","","",20020928182326164076000000,"","","","","","",0,"",0
+LIST_28,"",Financing,financing,"",100,Character,"",0,Lookup,"","","",20020928182326206627000000,"","","","","","",0,"",0
+LIST_29,ListingArea,Area,area,"",100,Character,"",1,Lookup,"","","",20020928182326632219000000,"","","","","","",0,"",0
+LIST_31,StreetNumber,Street Number,housenbr,"",10,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_32,BoxNumber,Legal Unit #,boxnbr,"",20,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_33,StreetDirPrefix,Street Direction Pfx,streetdirp,"",100,Character,"",1,Lookup,"","","",20020928182324886053000000,"","","","","","",0,"",0
+LIST_34,StreetName,Street Name,streetname,"",30,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_35,UnitNumber,Unit #,streetaddl,"",30,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_36,StreetDirSuffix,Street Direction Sfx,streetdirs,"",100,Character,"",1,Lookup,"","","",20020928182325026910000000,"","","","","","",0,"",0
+LIST_37,StreetSuffix,Street Sfx,streetsuff,"",100,Character,"",1,Lookup,"","","",20020928182325070813000000,"","","","","","",0,"",0
+LIST_39,City,City,city,"",100,Character,"",1,Lookup,"","","",20020928182326763168000000,"","","","","","",0,"",0
+LIST_40,StateOrProvince,State/Province,state,"",100,Character,"",1,Lookup,"","","",20020928182326806630000000,"","","","","","",0,"",0
+LIST_41,County,County,county,"",100,Character,"",1,Lookup,"","","",20020928182326888962000000,"","","","","","",0,"",0
+LIST_42,"",Historic Area,country,"",100,Character,"",1,Lookup,"","","",20020928182326930504000000,"","","","","","",0,"",0
+LIST_43,PostalCode,Postal Code,zip,"",10,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_46,Latitude,Geo Lat,geolat,"",11,Decimal,6,1,Number,"","","","","","","","","","",0,"",0
+LIST_47,Longitude,Geo Lon,geolon,"",11,Decimal,6,1,Number,"","","","","","","","","","",0,"",0
+LIST_48,"",Approx. Heated SqFt,totalsqft,"",10,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_53,YearBuilt,Year Built,yrbuilt,"",4,Int,"",1,Number,"","","","","","","","","","",0,"",0
+LIST_54,"",Block,style,"",10,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_55,"",Realtor.COM Type,type,"",100,Character,"",1,Lookup,"","","",20020928182325116720000000,"","","","","","",0,"",0
+LIST_56,LotSize,Appx. Lot Dimensions,lotsize,"",50,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_66,Bedrooms,Bedrooms,totalbr,"",4,Int,"",1,Number,"","","","","","","","","","",0,"",0
+LIST_67,BathsTotal,Bathrooms,totalbath,"",7,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_68,BathsFull,Full Baths,bathsfull,"",6,Int,"",1,Number,"","","","","","","","","","",0,"",0
+LIST_69,BathsHalf,Half Baths,bathshalf,"",6,Int,"",1,Number,"","","","","","","","","","",0,"",0
+LIST_73,"",All Bedrooms Conform,garagerem,"",100,Character,"",1,Lookup,"","","",20020928182327697648000000,"","","","","","",0,"",0
+LIST_74,"",Association Fee,zoning,"",100,Character,"",1,Lookup,"","","",20020928182326974957000000,"","","","","","",0,"",0
+LIST_77,Subdivision,Subdivision,subdivisio,"",100,Character,"",1,Lookup,"","","",20020928182327127072000000,"","","","","","",0,"",0
+LIST_78,PublicRemarks,Public Remarks,remark1,"",800,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_80,ParcelNumber,Real Estate Parcel #,parcelnbr,"",50,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_82,Directions,Directions,directions,"",400,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_83,LegalDescription,Legal Name of Subdiv,owner,"",100,Character,"",1,Lookup,"","","",20020928182326374884000000,"","","","","","",0,"",0
+LIST_84,"",Gated Community,ownerphone,"",100,Character,"",1,Lookup,"","","",20020928182326416792000000,"","","","","","",0,"",0
+LIST_86,"",Lot,howtoshow,"",30,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_88,ElementarySchool,Elementary School,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328044573000000,"","","","","","",0,"",0
+LIST_89,MiddleSchool,Middle School,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328086108000000,"","","","","","",0,"",0
+LIST_90,HighSchool,High School,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328128078000000,"","","","","","",0,"",0
+LIST_91,"",Navgble to Ocean Y/N,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328169492000000,"","","","","","",0,"",0
+LIST_93,"",Region,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328253370000000,"","","","","","",0,"",0
+LIST_94,"",Range Marketing,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328307340000000,"","","","","","",0,"",0
+LIST_95,WaterFront,Waterfront Y/N,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328348994000000,"","","","","","",0,"",0
+LIST_96,"",New Construction Y/N,userdefine,"",100,Character,"",1,Lookup,"","","",20020928182328390939000000,"","","","","","",0,"",0
+LIST_97,"",Type,userdefine,"",20,Character,"",1,"","","","","","","","","","","",0,"",0
+LIST_101,"",Assoc Fee Freq,permbookms,"",100,Character,"",1,Lookup,"","","",20020928182325375544000000,"","","","","","",0,"",0
+LIST_115,"",CDD Fee Y/N,userdefine,"",100,Character,"",1,Lookup,"","","",20060221194510298031000000,"","","","","","",0,"",0
+LIST_117,"",CDD Fee,userdefine,"",15,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_118,"",Det Heat SQFT,userdefine,"",15,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_119,"",Other Required Fees,userdefine,"",15,Decimal,2,1,Number,"","","","","","","","","","",0,"",0
+LIST_137,"",Days On Market,dom,"",4,Character,"",0,"","","","","","","","","","","",0,"",0
+LIST_144,"",Country,userdefine,"",100,Character,"",1,Lookup,"","","",20130819093908038311000000,"","","","","","",0,"",0
+FEAT20121101184824061350000000,"",Style: Other,"",Other,1024,Character,"",0,"","","","","","","","","","","",0,"",0
+FEAT20151013152450208843000000,"",Stories: # Stories,"",# Stories,20,Int,"",0,Number,"","","","","","","","","","",0,"",0
+FEAT20171105180819825865000000,"",Smart Home Features: Other,"",Other,1024,Character,"",0,"","","","","","","","","","","",0,"",0
+FEAT20030326032241373388000000,"",Structure: Builder,"",Builder,1024,Character,"",0,"","","","","","","","","","","",0,"",0
+FEAT20030923163353316224000000,"",Misc Exterior: HO Assoc. Name,"",HO Assoc. Name,1024,Character,"",0,"","","","","","","","","","","",0,"",0
+FEAT20030923163620661182000000,"",Misc Exterior: HO Assoc. Phone,"",HO Assoc. Phone,1024,Character,"",0,"","","","","","","","","","","",0,"",0
+FEAT20151013152157223933000000,"",Parking Facilities: # Garage Spaces,"",# Garage Spaces,23,Decimal,2,0,Number,"","","","","","","","","","",0,"",0
+FEAT20151013152230766399000000,"",Parking Facilities: # Carport Spaces,"",# Carport Spaces,23,Decimal,2,0,Number,"","","","","","","","","","",0,"",0
+FEAT20140322204858328730000000,"",Waterfront Descrpt: Waterfront Footage,"",Waterfront Footage,1024,Character,"",0,"","","","","","","","","","","",0,"",0
+FEAT20151110195615093612000000,"",Occupancy: Days After Closing,"",Days After Closing,20,Int,"",0,Number,"","","","","","","","","","",0,"",0
+GF20030226223925901561000000,"",Additional Equipment,"",Additional Equipment,100,Character,"",1,LookupMulti,"","","",GFLU20030226223925901561000000,99,"","","","","",0,"",0
+GF20030226223926983029000000,"",Additional Rooms,"",Additional Rooms,100,Character,"",1,LookupMulti,"","","",GFLU20030226223926983029000000,99,"","","","","",0,"",0
+GF20030305220239790821000000,"",Approx Parcel Size,"",Approx Parcel Size,100,Character,"",1,LookupMulti,"","","",GFLU20030305220239790821000000,4,"","","","","",0,"",0
+GF20030226223924961175000000,"",Bath,"",Bath,100,Character,"",1,LookupMulti,"","","",GFLU20030226223924961175000000,99,"","","","","",0,"",0
+GF20030226223924548899000000,"",Bedrooms,"",Bedrooms,100,Character,"",1,LookupMulti,"","","",GFLU20030226223924548899000000,99,"","","","","",0,"",0
+GF20030226223930354490000000,ComplexFeatures,Common/ClubAmenities,"",Common/ClubAmenities,100,Character,"",1,LookupMulti,"","","",GFLU20030226223930354490000000,99,"","","","","",0,"",0
+GF20030226223925313972000000,"",Dining,"",Dining,100,Character,"",1,LookupMulti,"","","",GFLU20030226223925313972000000,99,"","","","","",0,"",0
+GF20030226223942637168000000,"",Documents on File,"",Documents on File,100,Character,"",1,LookupMulti,"","","",GFLU20030226223942637168000000,99,"","","","","",0,"",0
+GF20030226223930665208000000,"",Energy Features,"",Energy Features,100,Character,"",1,LookupMulti,"","","",GFLU20030226223930665208000000,99,"","","","","",0,"",0
+GF20070122133416855055000000,"",Export Options,"",Export Options,100,Character,"",1,LookupMulti,"","","",GFLU20070122133416855055000000,99,"","","","","",0,"",0
+GF20061101134252098174000000,"",Exterior Wall,"",Exterior Wall,100,Character,"",1,LookupMulti,"","","",GFLU20061101134252098174000000,99,"","","","","",0,"",0
+GF20030305220206873663000000,"",Fencing,"",Fencing,100,Character,"",1,LookupMulti,"","","",GFLU20030305220206873663000000,99,"","","","","",0,"",0
+GF20030226223929026171000000,Fireplaces,Fireplace,"",Fireplace,100,Character,"",1,LookupMulti,"","","",GFLU20030226223929026171000000,99,"","","","","",0,"",0
+GF20030226223927789385000000,InteriorFeatures,Interior Amenities,"",Interior Amenities,100,Character,"",1,LookupMulti,"","","",GFLU20030226223927789385000000,99,"","","","","",0,"",0
+GF20030226223925644818000000,"",Kitchen,"",Kitchen,100,Character,"",1,LookupMulti,"","","",GFLU20030226223925644818000000,99,"","","","","",0,"",0
+GF20030226223938465518000000,"",Lot Description,"",Lot Description,100,Character,"",1,LookupMulti,"","","",GFLU20030226223938465518000000,10,"","","","","",0,"",0
+GF20030226223941039602000000,"",Lot Location,"",Lot Location,100,Character,"",1,LookupMulti,"","","",GFLU20030226223941039602000000,99,"","","","","",0,"",0
+GF20030228184016963251000000,"",Major Appliances,"",Major Appliances,100,Character,"",1,LookupMulti,"","","",GFLU20030228184016963251000000,99,"","","","","",0,"",0
+GF20030226223934789160000000,ExteriorFeatures,Misc Exterior,"",Misc Exterior,100,Character,"",1,LookupMulti,"","","",GFLU20030226223934789160000000,99,"","","","","",0,"",0
+GF20030227010650718647000000,"",New Construction,"",New Construction,100,Character,"",1,LookupMulti,"","","",GFLU20030227010650718647000000,99,"","","","","",0,"",0
+GF20030306165225382102000000,"",Occupancy,"",Occupancy,100,Character,"",1,LookupMulti,"","","",GFLU20030306165225382102000000,4,"","","","","",0,"",0
+GF20091007174340223056000000,"",OwnerApprPublicMktg,"",OwnerApprPublicMktg,100,Character,"",1,LookupMulti,"","","",GFLU20091007174340223056000000,99,"","","","","",0,"",0
+GF20030226223936808977000000,"",Parking Facilities,"",Parking Facilities,100,Character,"",1,LookupMulti,"","","",GFLU20030226223936808977000000,10,"","","","","",0,"",0
+GF20030226223936396599000000,Pool,Pool/Hot Tub,"",Pool/Hot Tub,100,Character,"",1,LookupMulti,"","","",GFLU20030226223936396599000000,10,"","","","","",0,"",0
+GF20030226223940461070000000,"",Possible Financing,"",Possible Financing,100,Character,"",1,LookupMulti,"","","",GFLU20030226223940461070000000,99,"","","","","",0,"",0
+GF20030305180243592752000000,Zoning,Presently Zoned,"",Presently Zoned,100,Character,"",1,LookupMulti,"","","",GFLU20030305180243592752000000,4,"","","","","",0,"",0
+GF20030305220303003689000000,"",Road Frontage,"",Road Frontage,100,Character,"",1,LookupMulti,"","","",GFLU20030305220303003689000000,99,"","","","","",0,"",0
+GF20030305220326457642000000,"",Road Surface,"",Road Surface,100,Character,"",1,LookupMulti,"","","",GFLU20030305220326457642000000,99,"","","","","",0,"",0
+GF20030226223934316859000000,"",Roof,"",Roof,100,Character,"",1,LookupMulti,"","","",GFLU20030226223934316859000000,99,"","","","","",0,"",0
+GF20170627201404702844000000,"",Smart Home Features,"",Smart Home Features,100,Character,"",1,LookupMulti,"","","",GFLU20170627201404702844000000,99,"","","","","",0,"",0
+GF20030226223924178856000000,"",Square Foot Source,"",Square Foot Source,100,Character,"",1,LookupMulti,"","","",GFLU20030226223924178856000000,1,"","","","","",0,"",0
+GF20120424173840764151000000,"",Stories,"",Stories,100,Character,"",1,LookupMulti,"","","",GFLU20120424173840764151000000,4,"","","","","",0,"",0
+GF20030226223933328883000000,Exterior,Structure,"",Structure,100,Character,"",1,LookupMulti,"","","",GFLU20030226223933328883000000,99,"","","","","",0,"",0
+GF20030226223932480526000000,Style,Style,"",Style,100,Character,"",1,LookupMulti,"","","",GFLU20030226223932480526000000,99,"","","","","",0,"",0
+GF20030226223930163349000000,Cooling,Type of Cooling,"",Type of Cooling,100,Character,"",1,LookupMulti,"","","",GFLU20030226223930163349000000,4,"","","","","",0,"",0
+GF20030226223922292850000000,"",Type of Dwelling,"",Type of Dwelling,100,Character,"",1,LookupMulti,"","","",GFLU20030226223922292850000000,1,"","","","","",0,"",0
+GF20030226223929852543000000,Heating,Type of Heating,"",Type of Heating,100,Character,"",1,LookupMulti,"","","",GFLU20030226223929852543000000,4,"","","","","",0,"",0
+GF20030226223931411163000000,Utilities,Utilities,"",Utilities,100,Character,"",1,LookupMulti,"","","",GFLU20030226223931411163000000,10,"","","","","",0,"",0
+GF20030226223932164213000000,"",Water Heater,"",Water Heater,100,Character,"",1,LookupMulti,"","","",GFLU20030226223932164213000000,99,"","","","","",0,"",0
+GF20020923141755529165000000,"",Waterfront Descrpt,"",Waterfront Descrpt,100,Character,"",1,LookupMulti,"","","",GFLU20020923141755529165000000,99,"","","","","",0,"",0
+ROOM_blank_room_area,"", Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_blank_room_width,"", Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_blank_room_rem,"", Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_blank_room_level,"", Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_blank_room_length,"", Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_blank_room_nbr,"", Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD2_room_area,"",Bedroom 2 Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD2_room_width,"",Bedroom 2 Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD2_room_rem,"",Bedroom 2 Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD2_room_level,"",Bedroom 2 Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD2_room_length,"",Bedroom 2 Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD2_room_nbr,"",Bedroom 2 Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD3_room_area,"",Bedroom 3 Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD3_room_width,"",Bedroom 3 Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD3_room_rem,"",Bedroom 3 Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD3_room_level,"",Bedroom 3 Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD3_room_length,"",Bedroom 3 Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD3_room_nbr,"",Bedroom 3 Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD4_room_area,"",Bedroom 4 Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD4_room_width,"",Bedroom 4 Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD4_room_rem,"",Bedroom 4 Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD4_room_level,"",Bedroom 4 Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD4_room_length,"",Bedroom 4 Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD4_room_nbr,"",Bedroom 4 Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD5_room_area,"",Bedroom 5 Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD5_room_width,"",Bedroom 5 Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD5_room_rem,"",Bedroom 5 Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD5_room_level,"",Bedroom 5 Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD5_room_length,"",Bedroom 5 Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD5_room_nbr,"",Bedroom 5 Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD6_room_area,"",Bedroom 6 Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD6_room_width,"",Bedroom 6 Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD6_room_rem,"",Bedroom 6 Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD6_room_level,"",Bedroom 6 Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD6_room_length,"",Bedroom 6 Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD6_room_nbr,"",Bedroom 6 Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BON_room_area,"",Bonus/Den/Office Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BON_room_width,"",Bonus/Den/Office Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BON_room_rem,"",Bonus/Den/Office Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BON_room_level,"",Bonus/Den/Office Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BON_room_length,"",Bonus/Den/Office Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BON_room_nbr,"",Bonus/Den/Office Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BRK_room_area,"",Breakfast Rm Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BRK_room_width,"",Breakfast Rm Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BRK_room_rem,"",Breakfast Rm Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BRK_room_level,"",Breakfast Rm Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BRK_room_length,"",Breakfast Rm Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BRK_room_nbr,"",Breakfast Rm Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_DIN_room_area,"",Dining Rm Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_DIN_room_width,"",Dining Rm Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_DIN_room_rem,"",Dining Rm Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_DIN_room_level,"",Dining Rm Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_DIN_room_length,"",Dining Rm Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_DIN_room_nbr,"",Dining Rm Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_FAM_room_area,"",Family Rm Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_FAM_room_width,"",Family Rm Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_FAM_room_rem,"",Family Rm Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_FAM_room_level,"",Family Rm Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_FAM_room_length,"",Family Rm Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_FAM_room_nbr,"",Family Rm Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_GRT_room_area,"",Great Rm Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_GRT_room_width,"",Great Rm Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_GRT_room_rem,"",Great Rm Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_GRT_room_level,"",Great Rm Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_GRT_room_length,"",Great Rm Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_GRT_room_nbr,"",Great Rm Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_KIT_room_area,"",Kitchen Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_KIT_room_width,"",Kitchen Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_KIT_room_rem,"",Kitchen Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_KIT_room_level,"",Kitchen Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_KIT_room_length,"",Kitchen Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_KIT_room_nbr,"",Kitchen Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_LIV_room_area,"",Living Rm Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_LIV_room_width,"",Living Rm Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_LIV_room_rem,"",Living Rm Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_LIV_room_level,"",Living Rm Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_LIV_room_length,"",Living Rm Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_LIV_room_nbr,"",Living Rm Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD1_room_area,"",MasterBr Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD1_room_width,"",MasterBr Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD1_room_rem,"",MasterBr Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD1_room_level,"",MasterBr Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD1_room_length,"",MasterBr Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_BD1_room_nbr,"",MasterBr Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_OTH_room_area,"",Other Area,"",Area,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_OTH_room_width,"",Other Width,"",Width,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_OTH_room_rem,"",Other Room Remarks,"",Room Remarks,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_OTH_room_level,"",Other Room Level,"",Room Level,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_OTH_room_length,"",Other Length,"",Length,50,Character,"",0,"","","","","","","","","","","",0,"",0
+ROOM_OTH_room_nbr,"",Other Flooring,"",Flooring,50,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_shortid,"",ListingMemberShortId,"",ListMbrShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_shortid,"",CoListingMemberShortId,"",CoListMbrShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+selling_member_shortid,"",SellingMemberShortId,"",SellMbrShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+coselling_member_shortid,"",CoSellingMemberShortId,"",CoSellMbrShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_shortid,"",ListingOfficeShortId,"",ListOffShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+selling_office_shortid,"",SellingOfficeShortId,"",SellOffShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+coselling_office_shortid,"",CoSellingOfficeShortId,"",CoSellOffShort,15,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_name,"",ListingMemberName,"",ListMbrName,122,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_name,"",CoListingMemberName,"",CoListMbrName,122,Character,"",0,"","","","","","","","","","","",0,"",0
+selling_member_name,"",SellingMemberName,"",SellMbrName,122,Character,"",0,"","","","","","","","","","","",0,"",0
+coselling_member_name,"",CoSellingMemberName,"",CoSellMbrName,122,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_name,"",ListingOfficeName,"",ListOfcName,150,Character,"",0,"","","","","","","","","","","",0,"",0
+selling_office_name,"",SellingOfficeName,"",SellOfcName,150,Character,"",0,"","","","","","","","","","","",0,"",0
+coselling_office_name,"",CoSellingOfficeName,"",CoSellOfcName,150,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_phone,"",ListingMemberPhone,"",ListMbrPhone,25,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_phone,"",CoListingMemberPhone,"",CoListMbrPhone,25,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_phone,"",ListingOfficePhone,"",ListOffPhone,25,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_fax,"",ListingMemberFax,"",ListMbrFax,15,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_fax,"",CoListingMemberFax,"",CoListMbrFax,15,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_fax,"",ListingOfficeFax,"",ListOffFax,15,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_address,"",ListingMemberAddress,"",ListMbrAddy,150,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_address,"",CoListingMemberAddress,"",CoListMbrAddy,150,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_address,"",ListingOfficeAddress,"",ListOffAddy,150,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_email,"",ListingMemberEmail,"",ListMbrEmail,150,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_email,"",CoListingMemberEmail,"",CoListMbrEmail,150,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_email,"",ListingOfficeEmail,"",ListOffEmail,150,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_member_url,"",ListingMemberUrl,"",ListMbrUrl,150,Character,"",0,"","","","","","","","","","","",0,"",0
+colisting_member_url,"",CoListingMemberUrl,"",CoListMbrUrl,150,Character,"",0,"","","","","","","","","","","",0,"",0
+listing_office_url,"",ListingOfficeUrl,"",ListOffUrl,150,Character,"",0,"","","","","","","","","","","",0,"",0
+UNBRANDEDIDXVIRTUALTOUR,"",UnBranded Virtual Tour,"",Unbranded (IDX) Virtual ,512,Character,"",0,"","","","","","","","","","","",0,"",0

@@ -36,9 +36,14 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'carrierwave', '0.10.0'
-gem "mini_magick"
 gem "fog-aws"
+# gem "fog"
+gem 'carrierwave', '1.2.1'
+gem "mini_magick"
+gem "rmagick"
+
+gem 'bootstrap', '~> 4.0.0.beta'
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

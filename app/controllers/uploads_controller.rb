@@ -24,16 +24,20 @@ class UploadsController < ApplicationController
   # POST /uploads
   # POST /uploads.json
   def create
-    @upload = Upload.new(upload_params)
+    notice = []
+    errors = []
+    upload_params[:files].each do |file|
+      @upload = Upload.new({"file" => file })
+      if @upload.save
+        notice << "#{@upload.name} uploaded successfully"
+      else
+        errors << "#{@upload.name} upload unsuccessful"
+      end
+    end
 
     respond_to do |format|
-      if @upload.save
-        format.html { redirect_to @upload, notice: 'Upload was successfully created.' }
-        format.json { render :show, status: :created, location: @upload }
-      else
-        format.html { render :new }
-        format.json { render json: @upload.errors, status: :unprocessable_entity }
-      end
+      format.html { redirect_to @upload, notice: notice, errors: errors }
+      format.json { render :show, status: :created, location: @upload }
     end
   end
 
@@ -69,6 +73,6 @@ class UploadsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def upload_params
-      params.require(:upload).permit(:name, :file)
+      params.require(:upload).permit(:files => [])
     end
 end

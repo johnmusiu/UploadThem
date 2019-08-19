@@ -12,13 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
-  </div>
-
-  <div class="field">
     add a file....
-    <%= form.file_field :file %>
+    <%= form.file_field :files, multiple: true %>
   </div>
 
   <div class="actions">
