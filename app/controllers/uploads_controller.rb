@@ -24,19 +24,17 @@ class UploadsController < ApplicationController
   # POST /uploads
   # POST /uploads.json
   def create
-    notice = []
-    errors = []
     upload_params[:files].each do |file|
       @upload = Upload.new({"file" => file })
-      if @upload.save
-        notice << "#{@upload.name} uploaded successfully"
-      else
-        errors << "#{@upload.name} upload unsuccessful"
-      end
+      # if @upload.save
+      #   notice << "#{@upload.name} uploaded successfully"
+      # else
+      #   errors << "#{@upload.name} upload unsuccessful"
+      # end
     end
-
+    # byebug
     respond_to do |format|
-      format.html { redirect_to Upload.last, notice: notice, errors: errors }
+      format.html { redirect_to Upload.last, notice: "uploaded successfully" }
       format.json { render :show, status: :created, location: @upload }
     end
   end

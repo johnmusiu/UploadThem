@@ -3,7 +3,7 @@ class Upload < ApplicationRecord
   process_in_background :file
 
   validates_presence_of :file
-
+  belongs_to :user
 
   def name
     file.path.split("/").last unless file.nil?

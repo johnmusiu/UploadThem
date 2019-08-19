@@ -2,7 +2,7 @@
 
 class FileUploader < CarrierWave::Uploader::Base
   include ::CarrierWave::Backgrounder::Delay
-  process :save_content_type_and_size_in_model
+  process :save_content_type_and_size
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -18,7 +18,8 @@ class FileUploader < CarrierWave::Uploader::Base
   end
 
 
-  def save_content_type_and_size_in_model
+  def save_content_type_and_size
+    byebug
     model.content_type = file.content_type if file.content_type
     model.file_size = file.size
   end

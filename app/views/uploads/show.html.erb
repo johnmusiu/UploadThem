@@ -1,7 +1,11 @@
-<p id="notice"><%= notice %></p>
-<h4><%= @upload.name %></h4>
-<h4><%= @upload.file_size %></h4>
-
-<p><%= link_to "Download File", @upload.file_url %></p>
-<%= link_to 'Edit', edit_upload_path(@upload) %> |
-<%= link_to 'Back', uploads_path %>
+<br>
+<div class="row">
+  <p class="col-md-8"><b>Name: </b><%= @upload.name %></p>
+  <p class="col-md-3"><b>Size: </b><%= @upload.file_size %></p>
+</div>
+<div >
+  <%= link_to "Download File", @upload.file_url %> |
+  <%= link_to 'Edit', edit_upload_path(@upload) %> |
+  <%= link_to 'Destroy', @upload, data: { confirm: 'Are you sure?' }, method: :delete %> |
+  <%= link_to 'Back', uploads_path %>
+</div>
