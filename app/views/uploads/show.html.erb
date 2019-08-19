@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
-<h3><% @upload.name %></h3>
+<h4><%= @upload.name %></h4>
+<h4><%= @upload.file_size %></h4>
 
 <p><%= link_to "Download File", @upload.file_url %></p>
 <%= link_to 'Edit', edit_upload_path(@upload) %> |

@@ -39,10 +39,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "fog-aws"
 # gem "fog"
 gem 'carrierwave', '1.2.1'
+gem 'carrierwave_backgrounder', :git => 'https://github.com/lardawge/carrierwave_backgrounder.git'
+gem 'delayed_job_active_record'
 gem "mini_magick"
 gem "rmagick"
+gem "daemons"
 
-gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 group :development, :test do

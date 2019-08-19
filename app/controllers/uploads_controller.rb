@@ -36,7 +36,7 @@ class UploadsController < ApplicationController
     end
 
     respond_to do |format|
-      format.html { redirect_to @upload, notice: notice, errors: errors }
+      format.html { redirect_to Upload.last, notice: notice, errors: errors }
       format.json { render :show, status: :created, location: @upload }
     end
   end

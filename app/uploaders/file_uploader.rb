@@ -1,7 +1,8 @@
 # encoding: utf-8
 
 class FileUploader < CarrierWave::Uploader::Base
-
+  include ::CarrierWave::Backgrounder::Delay
+  process :save_content_type_and_size_in_model
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -16,6 +17,11 @@ class FileUploader < CarrierWave::Uploader::Base
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
+
+  def save_content_type_and_size_in_model
+    model.content_type = file.content_type if file.content_type
+    model.file_size = file.size
+  end
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url
   #   # For Rails 3.1+ asset pipeline compatibility:
