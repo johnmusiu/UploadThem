@@ -1,24 +1,21 @@
-# README
+# UploadThem Rails App
+[![Build Status](https://travis-ci.com/johnmusiu/ideas-app-rails.svg?branch=master)](https://travis-ci.com/johnmusiu/ideas-app-rails)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e6c911dd8411e048394b/test_coverage)](https://codeclimate.com/github/johnmusiu/ideas-app-rails/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e6c911dd8411e048394b/maintainability)](https://codeclimate.com/github/johnmusiu/ideas-app-rails/maintainability)
+##### Ruby version
+2.6.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### System dependencies
+    brew install minimagick
+   
+##### Configuration
 
-Things you may want to cover:
+##### Database creation and intialization
+    rails db:setup
+    
+##### How to run the test suite
+    bundle rspec
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##### Services (job queues, cache servers, search engines, etc.)
+    redis
+    
