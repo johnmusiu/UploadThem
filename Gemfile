@@ -38,7 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem "fog-aws"
 # gem "fog"
-gem 'carrierwave', '1.2.1'
+gem 'carrierwave', '1.3.2'
 gem "mini_magick"
 gem "rmagick"
 
